@@ -1,0 +1,29 @@
+[
+    {
+        "userId": 4,
+        "name": "suraj shelar",
+        "email": "sanket@example.com",
+        "address": {
+            "city": "mumbai",
+            "state": "maharashtra"
+        }
+    },
+    {
+        "userId": 4,
+        "name": "suraj shelar",
+        "email": "sanket@example.com",
+        "address": {
+            "city": "mumbai",
+            "state": "maharashtra"
+        }
+    },
+    {
+        "userId": 1,
+        "name": "mangesh shelar",
+        "email": "mangesh@example.com",
+        "address": {
+            "city": "nashik",
+            "state": "maharashtra"
+        }
+    }
+]
