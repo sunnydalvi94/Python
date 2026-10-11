@@ -1,0 +1,7 @@
+chromadb
+fastapi
+openai
+pydantic
+python-dotenv
+tiktoken
+uvicorn[standard]
