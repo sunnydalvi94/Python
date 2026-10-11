@@ -5,6 +5,9 @@ __pycache__/
 
 # Virtual Environments
 .venv/
+.venv*/
+**/.venv/
+**/venv/
 venv/
 ENV/
 env/
@@ -12,6 +15,7 @@ venv.bak/
 
 # Frontend / Node.js
 node_modules/
+**/node_modules/
 dist/
 build/
 .npm/
@@ -29,9 +33,22 @@ Thumbs.db
 # Environment variables (Never push secrets!)
 .env
 .env.local
-.env.*.local
+.env.*
+!.env.example
+
+# Python caches and generated package metadata
+**/__pycache__/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.tox/
 
 # pytest and coverage
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Logs and generated local data
+*.log
+logs/
+chroma_db/
